@@ -4,11 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        for (int i=1; i<=10; i++){
-            if (i == 7) {
-                continue;
-            } System.out.println(i);
-        }
+        int[] numbers = {1, 2, 3, 4, 5};
+        System.out.println(numbers[0]);
 
 
 
